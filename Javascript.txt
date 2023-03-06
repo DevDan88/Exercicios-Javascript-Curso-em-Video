@@ -1,0 +1,41 @@
+JAVASCRIPT
+
+Bibliografia:
+*O Guia Definitivo.(5ª edição do ECMAscript)
+*Guia do Programador.
+Guia de Referência da Mozilla.
+Guia de Referência da ECMA.
+
+Dicas:
+*Maiusculas e Minusculas fazem diferença
+*Tente escolher nomes coerentes para as variaveis
+*Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+Tipos de Dados: typeof(comando Nodejs)
+Number: Infinity e NaN
+String:
+Boolean:
+Null:
+Undefined:
+Object: Array(vetores)
+Function:
+
+String para Número:
+Number.parseInt(n)
+Number.parseFloat(n)
+Number(n)
+
+Número para String:
+String(n)
+n.toString()
+
+Formatação Strings
+var s = 'Javascript'
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo' + s // usa concatenação
+`Eu estou aprendendo ${s}` //usa template string (com crase) 
+${} este comando se chama placeholder
+
+s.length // quantos caracteres a string tem
+s.toUppercase() //tudo para MAIÚSCULAS
+s.toLowerCase() //tudo pata minúscula

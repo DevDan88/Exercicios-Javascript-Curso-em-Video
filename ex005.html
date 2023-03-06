@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <link rel="stylesheet" href="style05.css">
+</head>
+<body>
+    <h1>Primeiros Passos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <p>DOM: <strong>D</strong>ocument <strong>O</strong>bject <strong>M</strong>odel.</p>
+    <div id="msg">Clique em mim</div><br>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        //window.document.write("Está escrito assim: " +p1.innerText)
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'darkred'
+    </script>
+</body>
+</html>

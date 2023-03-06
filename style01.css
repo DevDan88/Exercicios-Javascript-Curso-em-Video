@@ -1,0 +1,9 @@
+body{
+	background-image: linear-gradient(to right, rgb(20,147,220), rgb(17, 54, 71));
+	font-size: 18pt;
+	color: floralwhite;
+	font-family: cursive;
+}
+h1{
+	color: black;
+}
